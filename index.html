@@ -1,0 +1,504 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="description" content="" />
+    <meta
+      name="author"
+      content="Mark Otto, Jacob Thornton, and Bootstrap contributors"
+    />
+    <meta name="generator" content="Hugo 0.88.1" />
+    <title>AlexisCastro12's Portfolio</title>
+
+    <!-- Bootstrap core CSS -->
+    <link href="./assets/dist/css/bootstrap.min.css" rel="stylesheet" />
+
+    <!--Own styles for this page-->
+    <link href="./styles/style.css" rel="stylesheet" />
+
+    <!--Icons-->
+    <script
+      type="module"
+      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"
+    ></script>
+    <script
+      nomodule
+      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"
+    ></script>
+  </head>
+
+  <body>
+    <header>
+      <nav class="navbar navbar-expand-md navbar-dark fixed-top bg-dark">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#"
+            ><ion-icon name="code-slash-outline"></ion-icon> AC12</a
+          >
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarCollapse"
+            aria-controls="navbarCollapse"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarCollapse">
+            <ul class="navbar-nav me-auto mb-2 mb-md-0">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#"
+                  >My Bio</a
+                >
+              </li>
+              <li class="nav-item">
+                <a class="nav-link active" href="#Skills">Skill Set</a>
+              </li>
+              <li class="nav-item dropdown">
+                <a
+                  class="nav-link active dropdown-toggle"
+                  href="#"
+                  id="navbarDropdown"
+                  role="button"
+                  data-bs-toggle="dropdown"
+                  aria-expanded="false"
+                >
+                  Projects
+                </a>
+                <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                  <li>
+                    <a class="dropdown-item" href="#PacMen"
+                      ><ion-icon name="game-controller-outline"></ion-icon> Pac
+                      Men Factory</a
+                    >
+                  </li>
+                  <li>
+                    <a class="dropdown-item" href="#EyesMov"
+                      ><ion-icon name="eye-outline"></ion-icon> Eyes Movement</a
+                    >
+                  </li>
+                  <li>
+                    <a class="dropdown-item" href="#RealTimeBus"
+                      ><ion-icon name="bus-outline"></ion-icon> Real Time Bus
+                      Tracker</a
+                    >
+                  </li>
+                </ul>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link active" href="#Contactme">Contact me</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+    </header>
+
+    <main>
+      <!--START MY BIO SECTION-->
+      <div class="row p-4 p-md-5 m-4 text-white rounded bg-custom">
+        <!--START PRESENTATION SECTION-->
+        <div class="row">
+          <div class="col-lg-5 text-center">
+            <img
+              src="./images/BioPic12.jpg"
+              width="360"
+              height="360"
+              class="img-thumbnail"
+            />
+          </div>
+          <div class="col-lg-5 px-0 m-lg-5 m-2">
+            <h1 class="display-5 fst-italic">Hi, I'm Alexis Castro</h1>
+            <h2 class="display-6 fst-italic fs-3">Software Developer</h2>
+            <p class="my-3 fs-6 fw-light">
+              Multiple lines of text that form the lede, informing new readers
+              quickly and efficiently about what’s most interesting in this
+              post’s contents.
+            </p>
+          </div>
+        </div>
+        <!--END MY PRESENTATION SECTION-->
+        <hr class="featurette-divider" />
+        <!--START VIDEO SECTION-->
+        <div class="row justify-content-center">
+          <div class="col-lg-4 px-0 m-lg-4 m-2 align-self-center">
+            <h1 class="display-4 fst-italic">Know me more...</h1>
+          </div>
+          <div class="col-lg-6 text-center">
+            <iframe
+              id="video-present"
+              width="100%"
+              height="315px"
+              src="https://www.youtube.com/embed/xfKrlmo8RLY"
+              title="YouTube video player"
+              frameborder="0"
+              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+              allowfullscreen
+            ></iframe>
+          </div>
+        </div>
+        <!--END VIDEO SECTION-->
+      </div>
+      <!--END MY BIO SECTION-->
+      <!--START PROJECTS & SKILLS-->
+      <div class="container marketing">
+        <!--START SKILL SET TABLE-->
+        <section id="Skills">
+          <hr class="featurette-divider" />
+          <div class="row text-center mb-2 mt-2">
+            <h1 class="section-heading display-2">Skill Set</h1>
+          </div>
+          <div class="row">
+            <div class="col-lg-4 col-sm-6">
+              <img
+                src="./images/html-1.svg"
+                title="HTML5"
+                alt="HTML5 Logo"
+                width="120"
+                height="120"
+              />
+              <h2>HTML5</h2>
+            </div>
+            <!-- /.col-lg-4 -->
+            <div class="col-lg-4 col-sm-6">
+              <img
+                src="./images/css-3.svg"
+                title="CSS3"
+                width="120"
+                height="120"
+                alt="CSS3 Logo"
+              />
+              <h2>CSS3</h2>
+            </div>
+            <!-- /.col-lg-4 -->
+
+            <div class="col-lg-4 col-sm-6">
+              <img
+                src="./images/javascript-1.svg"
+                title="JS"
+                width="120"
+                height="120"
+                alt="JS Logo"
+              />
+              <h2>JavaScript</h2>
+            </div>
+            <!-- /.col-lg-4 -->
+
+            <div class="col-lg-4 col-sm-6">
+              <img
+                src="./images/c--4.svg"
+                title="C#"
+                width="120"
+                height="120"
+                alt="C# Logo"
+              />
+              <h2>C#</h2>
+            </div>
+            <!-- /.col-lg-4 -->
+
+            <div class="col-lg-4 col-sm-6">
+              <img
+                src="./images/git-icon.svg"
+                title="Git"
+                width="120"
+                height="120"
+                alt="Git Logo"
+              />
+              <h2>Git</h2>
+            </div>
+            <!-- /.col-lg-4 -->
+
+            <div class="col-lg-4 col-sm-6">
+              <img
+                src="./images/jest-2.svg"
+                title="Jest"
+                width="140"
+                height="140"
+                alt="Jest Logo"
+              />
+              <h2>JEST</h2>
+            </div>
+            <!-- /.col-lg-4 -->
+
+            <div class="col-lg-4 col-sm-6">
+              <img
+                src="./images/bootstrap-5-1.svg"
+                title="Bootstrap"
+                width="120"
+                height="120"
+                alt="Bootstrap Logo"
+              />
+              <h2>Bootstrap</h2>
+            </div>
+            <!-- /.col-lg-4 -->
+
+            <div class="col-lg-4 col-sm-6">
+              <img
+                src="./images/github-icon-1.svg"
+                title="Github"
+                width="120"
+                height="120"
+                alt="Github Logo"
+              />
+              <h2>Github</h2>
+            </div>
+            <!-- /.col-lg-4 -->
+          </div>
+          <!-- /.row -->
+        </section>
+        <!--END SKILL SET TABLE-->
+        <!-- START PROJECTS -->
+
+        <hr class="featurette-divider" />
+        <div class="row text-center mb-2 mt-2">
+          <h1 class="display-1 section-heading">Projects</h1>
+        </div>
+        <div id="PacMen" class="row featurette">
+          <div class="col-md-7">
+            <h2 class="featurette-heading">PacMen Factory</h2>
+            <p class="lead">
+              Do you remember the friendly little yellow ball from the 80's that
+              just eats, eats and eats?? Exactly, we are talking about Pac-Man.
+            </p>
+            <p class="lead">
+              This project is an animation work that uses this famous character
+              to show how much fun web development can be and how powerful the
+              combination of languages like HTML and JavaScript can be.
+            </p>
+            <p>
+              <a
+                href="#"
+                class="btn btn-primary btn-lg bg-custom"
+                role="button"
+                aria-pressed="true"
+                ><ion-icon name="browsers-outline"></ion-icon> View Project</a
+              >
+              <a
+                href="#"
+                class="btn btn-secondary btn-lg"
+                role="button"
+                aria-pressed="true"
+                ><ion-icon name="logo-github"></ion-icon> GH Repository</a
+              >
+            </p>
+          </div>
+          <div class="col-md-5 align-self-center">
+            <img
+            class="img-thumbnail"
+            src="./images/PacMen-Factory.png"
+            title="PacMenFactory"
+            alt="Preview PacMenFactory"
+          />
+          </div>
+        </div>
+
+        <hr class="featurette-divider" />
+
+        <div id="EyesMov" class="row featurette">
+          <div class="col-md-7 order-md-2">
+            <h2 class="featurette-heading">Eyes Movement</h2>
+            <p class="lead">Description</p>
+            <p>
+              <a
+                href="#"
+                class="btn btn-primary btn-lg bg-custom"
+                role="button"
+                aria-pressed="true"
+                ><ion-icon name="browsers-outline"></ion-icon> View Project</a
+              >
+              <a
+                href="#"
+                class="btn btn-secondary btn-lg"
+                role="button"
+                aria-pressed="true"
+                ><ion-icon name="logo-github"></ion-icon> GH Repository</a
+              >
+            </p>
+          </div>
+          <div class="col-md-5 order-md-1">
+            <svg
+              class="bd-placeholder-img bd-placeholder-img-lg featurette-image img-fluid mx-auto"
+              width="500"
+              height="500"
+              xmlns="http://www.w3.org/2000/svg"
+              role="img"
+              aria-label="Placeholder: 500x500"
+              preserveAspectRatio="xMidYMid slice"
+              focusable="false"
+            >
+              <title>Placeholder</title>
+              <rect width="100%" height="100%" fill="#eee" />
+              <text x="50%" y="50%" fill="#aaa" dy=".3em">500x500</text>
+            </svg>
+          </div>
+        </div>
+
+        <hr class="featurette-divider" />
+
+        <div id="RealTimeBus" class="row featurette">
+          <div class="col-md-7">
+            <h2 class="featurette-heading">Real Time Bus Tracker</h2>
+            <p class="lead">Description</p>
+            <p>
+              <a
+                href="https://alexiscastro12.github.io/Real-Time-Bus-Tracker/"
+                class="btn btn-primary btn-lg bg-custom"
+                role="button"
+                aria-pressed="true"
+                target="_blank"
+                ><ion-icon name="browsers-outline"></ion-icon> View Project</a
+              >
+              <a
+                href="https://github.com/AlexisCastro12/Real-Time-Bus-Tracker"
+                class="btn btn-secondary btn-lg"
+                role="button"
+                aria-pressed="true"
+                target="_blank"
+                ><ion-icon name="logo-github"></ion-icon> GH Repository</a
+              >
+            </p>
+          </div>
+          <div class="col-md-5 align-self-center">
+            <img
+              class="img-thumbnail"
+              src="./images/Real-Time-Bus-Tracker.png"
+              title="RTBT"
+              alt="Preview RTBT"
+            />
+          </div>
+        </div>
+
+        <hr class="featurette-divider" />
+
+        <!-- /END THE PROJECTS -->
+      </div>
+      <!-- /.container -->
+
+      <!--START CONTACT ME-->
+      <div id="Contactme" class="container mt-3 mb-5">
+        <h1 class="mb-5 section-heading display-2">Let's work together!</h1>
+        <form
+          class="row g-3"
+          action="https://formsubmit.co/alexis1204.aacs@gmail.com"
+          method="POST"
+        >
+          <div class="col-md-4">
+            <label for="name" class="form-label">Your Name:</label>
+            <input
+              type="text"
+              class="form-control"
+              id="name"
+              name="name"
+              required
+            />
+          </div>
+          <div class="col-md-8">
+            <label for="emailInfo" class="form-label">Your E-mail:</label>
+            <input
+              type="email"
+              class="form-control"
+              id="email"
+              name="email"
+              required
+            />
+          </div>
+          <div class="col-md-12">
+            <label for="message" class="form-label">Type message:</label>
+            <textarea
+              class="form-control"
+              id="message"
+              name="message"
+              rows="3"
+            ></textarea>
+          </div>
+          <div class="col-md-12">
+            <button type="submit" class="btn btn-primary bg-custom">
+              Submit
+            </button>
+          </div>
+        </form>
+      </div>
+      <!--END CONTACTME-->
+      <!-- FOOTER -->
+      <footer class="text-center text-white position-absolute">
+        <!-- Grid container -->
+        <div class="container pt-4">
+          <!-- Section: Social media -->
+          <section class="mb-4">
+            <!-- Facebook -->
+            <a
+              class="btn btn-link btn-floating btn-lg text-dark m-1"
+              href="#!"
+              role="button"
+              data-mdb-ripple-color="dark"
+              ><i class="fab fa-facebook-f"></i
+            ></a>
+
+            <!-- Twitter -->
+            <a
+              class="btn btn-link btn-floating btn-lg text-dark m-1"
+              href="#!"
+              role="button"
+              data-mdb-ripple-color="dark"
+              ><i class="fab fa-twitter"></i
+            ></a>
+
+            <!-- Google -->
+            <a
+              class="btn btn-link btn-floating btn-lg text-dark m-1"
+              href="#!"
+              role="button"
+              data-mdb-ripple-color="dark"
+              ><i class="fab fa-google"></i
+            ></a>
+
+            <!-- Instagram -->
+            <a
+              class="btn btn-link btn-floating btn-lg text-dark m-1"
+              href="#!"
+              role="button"
+              data-mdb-ripple-color="dark"
+              ><i class="fab fa-instagram"></i
+            ></a>
+
+            <!-- Linkedin -->
+            <a
+              class="btn btn-link btn-floating btn-lg text-dark m-1"
+              href="#!"
+              role="button"
+              data-mdb-ripple-color="dark"
+              ><i class="fab fa-linkedin"></i
+            ></a>
+            <!-- Github -->
+            <a
+              class="btn btn-link btn-floating btn-lg text-dark m-1"
+              href="#!"
+              role="button"
+              data-mdb-ripple-color="dark"
+              ><i class="fab fa-github"></i
+            ></a>
+          </section>
+          <!-- Section: Social media -->
+        </div>
+        <!-- Grid container -->
+
+        <!-- Copyright -->
+        <div
+          class="text-center text-dark p-3"
+          style="background-color: rgba(0, 0, 0, 0.2)"
+        >
+          © 2020 Copyright:
+          <a class="text-dark" href="https://mdbootstrap.com/"
+            >MDBootstrap.com</a
+          >
+        </div>
+        <!-- Copyright -->
+      </footer>
+    </main>
+
+    <script src="./assets/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="./scripts/scripts.js"></script>
+  </body>
+</html>
