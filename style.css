@@ -27,12 +27,6 @@ footer {
 .marketing h2 {
   font-weight: 400;
 }
-/* rtl:begin:ignore */
-.marketing .col-lg-4 p {
-  margin-right: 0.75rem;
-  margin-left: 0.75rem;
-}
-/* rtl:end:ignore */
 
 /* Featurettes
   ------------------------- */
@@ -45,15 +39,11 @@ footer {
 .featurette-heading {
   font-weight: 300;
   line-height: 1;
-  /* rtl:remove */
-  letter-spacing: -0.05rem;
 }
 
 .section-heading {
   font-weight: 500;
   line-height: 1;
-  /* rtl:remove */
-  letter-spacing: -0.05rem;
 }
 /* RESPONSIVE CSS
   -------------------------------------------------- */
