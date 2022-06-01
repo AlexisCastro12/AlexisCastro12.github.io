@@ -17,7 +17,23 @@ footer {
 
 /* Center align the text within the three columns below the carousel */
 .bg-custom {
-  background-color: #1F618D;
+  background-color: #1f618d;
+}
+
+.text-justify {
+  text-align: justify;
+}
+
+a:hover {
+  color: beige;
+}
+
+a:link {
+  color: white;
+}
+
+a:visited {
+  color: lightblue;
 }
 
 .marketing .col-lg-4 {
